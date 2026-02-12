@@ -1,8 +1,31 @@
 # ICT304-Assignment1
 ICT304 Assignment 1 – AI System Design Prototype
 
-## How to Run
+## Notebooks
+- `notebooks/EDA.ipynb`: Exploratory Data Analysis (EDA)
+- `notebooks/Prototype.ipynb`: Model prototype training + evaluation
 
-1. Download project
-2. Install dependencies
-3. Run notebooks/Prototype.ipynb in Jupyter or Colab
+## Dataset
+Datasets are not included in this repo due to file size limits.
+Please download the datasets and place them under:
+
+sis fall original dataset: [https://www.kaggle.com/datasets/nvnikhil0001/sis-fall-original-dataset](https://www.kaggle.com/datasets/nvnikhil10001/sis-fall-original-dataset
+)
+ECG original dataset:
+
+
+Expected files:
+- mitbih_train.csv
+- mitbih_test.csv
+- ptbdb_normal.csv
+- ptbdb_abnormal.csv
+
+## How to Run (Local)
+1. Install Python 3.10+
+2. Install packages:
+   pip install -r requirements.txt
+3. Open Jupyter:
+   jupyter notebook
+4. Run:
+   - notebooks/EDA.ipynb
+   - notebooks/Prototype.ipynb
