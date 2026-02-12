@@ -1,0 +1,17 @@
+{
+  "sisfall": {
+    "total_files": 4505,
+    "adl_files": 2707,
+    "fall_files": 1798,
+    "participants": 38,
+    "young_adults": 23,
+    "elderly": 15
+  },
+  "ecg": {
+    "train_samples": 87554,
+    "test_samples": 21892,
+    "features": 187,
+    "normal_count": 72471,
+    "anomaly_count": 15083
+  }
+}
