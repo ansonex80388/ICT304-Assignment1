@@ -9,9 +9,11 @@ ICT304 Assignment 1 – AI System Design Prototype
 Datasets are not included in this repo due to file size limits.
 Please download the datasets and place them under:
 
-sis fall original dataset: [https://www.kaggle.com/datasets/nvnikhil0001/sis-fall-original-dataset](https://www.kaggle.com/datasets/nvnikhil10001/sis-fall-original-dataset
-)
-ECG original dataset:
+1. Heartbeat Dataset  
+   https://www.kaggle.com/datasets/shayanfazeli/heartbeat
+
+2. SIS Fall Dataset  
+   https://www.kaggle.com/datasets/nvnikhil10001/sis-fall-original-dataset
 
 
 Expected files:
@@ -29,3 +31,8 @@ Expected files:
 4. Run:
    - notebooks/EDA.ipynb
    - notebooks/Prototype.ipynb
+  
+
+
+
+
