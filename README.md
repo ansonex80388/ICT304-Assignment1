@@ -1,6 +1,19 @@
 # ICT304-Assignment1
 ICT304 Assignment 1 – AI System Design Prototype
 
+## System Architecture
+
+[IHCS Architecture](docs/system_architecture.png)
+
+The Intelligent Home Care System (IHCS) consists of:
+
+- AI Sub-System 1: Fall Detection (LSTM vs GRU)
+- AI Sub-System 2: ECG Anomaly Detection (LSTM AE vs GRU AE)
+- Alert and Notification Sub-System
+- User Dashboard
+
+The system integrates predictions from both AI modules to trigger alerts and provide real-time monitoring.
+
 ## Notebooks
 - `notebooks/EDA.ipynb`: Exploratory Data Analysis (EDA)
 - `notebooks/Prototype.ipynb`: Model prototype training + evaluation
